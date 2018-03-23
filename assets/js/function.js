@@ -314,8 +314,8 @@ $(document).ready(function () {
      simpletimer.syotimer({
         year: 2018,
         month: 4,
-        day: 10,
-        hour: 11,
+        day: 9,
+        hour: 9,
         minute: 25
      });
 

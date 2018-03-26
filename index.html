@@ -262,28 +262,7 @@ document.onkeydown = function(e) {
 };
 window.setTimeout(function() { 
     document.body.className = document.body.className.replace("loading", ""); 
-}, 10); 
-
-$.each($("input"), function(i, e) { 
-    var elem = $(e).parent().find("#visitorsCount"); 
-
-    var blogStats = new Firebase("http://baluwedskaveri.co" + $(e).text()); 
-    blogStats.once("value", function(snapshot) { 
-        var data = snapshot.val(); 
-        var isnew = false; 
-        if(data == null) { 
-            data= {}; 
-            data.value = 0; 
-            data.url = window.location.href; 
-            data.id = $(e).val(); 
-            isnew = true; 
-        }
-        console.log(data)
-        elem.val(data.value); 
-        data.value++; 
-        blogStats.set(data); 
-    }); 
-}); 
+}, 10);  
 </script>
 <!-- Color Switcher -->
 </body>

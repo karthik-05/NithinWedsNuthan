@@ -990,7 +990,7 @@ color: #fff;
 		display: none;
 	}
 .bottom {
-	min-height: 900px;
+	min-height: 1000px;
 	color: #fff;
 }
 .timer-body-block .table-cell:last-child {

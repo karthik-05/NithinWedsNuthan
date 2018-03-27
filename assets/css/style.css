@@ -399,18 +399,23 @@ section.hero .content {
 section.hero .content h4 {
 	font-size: 27px;
 	font-family: 'Pacifico', cursive;
+	color: #512DA8;
+	text-shadow: 1px 2px 8px rgb(255, 255, 255);
 }
 section.hero .content h2 {
     font-size: 100px;
     font-weight: 900;
     margin-top: 0;
     font-family: 'Great Vibes', cursive;
-    text-shadow: 1px 2px 8px rgb(243, 0, 52);
+    color: #512DA8;
+    text-shadow: 1px 2px 8px rgb(255, 255, 255);
 }
 section.hero .content span {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
+    color: #512DA8;
+    text-shadow: 1px 2px 8px rgb(255, 255, 255);
 }
 .ico {
 	text-align: center;
